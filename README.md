@@ -12,23 +12,23 @@
 
 ## 手順
 
-1. npm i -D @wordpress/env
-2. npm init -y
+1. `npm i -D @wordpress/env`
+2. `npm init -y`
    1.  package.json生成
-3. package.json の scripts に wp-env コマンドを追記。
+3. package.json の `scripts` に `wp-env` コマンドを追記。
 4. .wp-env.json を作成。
-5. 起動 npm run wp-env start
+5. 起動 `npm run wp-env start`
    1. 停止 npm run wp-env stop
    2. 再起動 npm run wp-env start --update
    3. 削除 npm run wp-env destroy
 6. トップページ http://localhost:8888
 7. 管理画面 http://localhost:8888/wp-login.php
-   1. admin
-   2. password
+   1. `admin`
+   2. `password`
 
 ## DBへの接続
 
-- 起動コマンドを実行後 docker ps でDBのポートをコピーする。
+- 起動コマンドを実行後 `docker ps` でDBのポートをコピーする。
 - 接続情報
 
 |パラメータ|値|
