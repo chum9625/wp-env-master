@@ -18,9 +18,9 @@
 3. package.json の `scripts` に `wp-env` コマンドを追記。
 4. .wp-env.json を作成。
 5. 起動 `npm run wp-env start`
-   1. 停止 npm run wp-env stop
-   2. 再起動 npm run wp-env start --update
-   3. 削除 npm run wp-env destroy
+   1. 停止   `npm run wp-env stop`
+   2. 再起動 `npm run wp-env start --update`
+   3. 削除   `npm run wp-env destroy`
 6. トップページ http://localhost:8888
 7. 管理画面 http://localhost:8888/wp-login.php
    1. `admin`
