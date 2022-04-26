@@ -17,10 +17,10 @@
 
 1. ``` nvm ls ``` nodeのバージョンを確認する。変更コマンドは ``` nvm use [version number] ```
 2. `npm i -D @wordpress/env`
-3. `npm init -y`
-   1.  package.json生成
-4. package.json の `scripts` に `wp-env` コマンドを追記。
-5. `.wp-env.json` を作成。
+3. ~~`npm init -y`~~
+   ~~1.  package.json生成~~
+4. package.json の `scripts` に `wp-env` コマンドを追記。**※記載箇所注意**
+5. `.wp-env.json` を作成。　**※プラグイン見直し　特にewww**
 6. 起動 `npm run wp-env start`
    1. 停止   `npm run wp-env stop`
    2. 再起動 `npm run wp-env start --update`
