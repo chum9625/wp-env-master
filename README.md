@@ -11,20 +11,22 @@
 3. テーマディレクトリを作成し、移動。
    1. mkdir my-theme
    2. cd my-theme
+4. node バージョンはLTS推奨。 
 
 ## 手順
 
-1. `npm i -D @wordpress/env`
-2. `npm init -y`
+1. ``` nvm ls ``` nodeのバージョンを確認する。変更コマンドは ``` nvm use [version number] ```
+2. `npm i -D @wordpress/env`
+3. `npm init -y`
    1.  package.json生成
-3. package.json の `scripts` に `wp-env` コマンドを追記。
-4. `.wp-env.json` を作成。
-5. 起動 `npm run wp-env start`
+4. package.json の `scripts` に `wp-env` コマンドを追記。
+5. `.wp-env.json` を作成。
+6. 起動 `npm run wp-env start`
    1. 停止   `npm run wp-env stop`
    2. 再起動 `npm run wp-env start --update`
    3. 削除   `npm run wp-env destroy`
-6. トップページ http://localhost:8888
-7. 管理画面 http://localhost:8888/wp-login.php
+7. トップページ http://localhost:8888
+8. 管理画面 http://localhost:8888/wp-login.php
    1. `admin`
    2. `password`
 
