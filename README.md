@@ -11,7 +11,7 @@
 3. テーマディレクトリを作成し、移動。
    1. `mkdir my-theme`
    2. `cd my-theme`
-4. **node バージョンはLTS推奨。 **
+4. __node バージョンはLTS推奨。__
 
 ## 手順
 
