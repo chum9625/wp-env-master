@@ -9,9 +9,9 @@
 1. [Docker Desktop](https://www.docker.com/) セットアップ済。
 2. [Node.js](https://nodejs.org/ja/) セットアップ済。
 3. テーマディレクトリを作成し、移動。
-   1. mkdir my-theme
-   2. cd my-theme
-4. node バージョンはLTS推奨。 
+   1. `mkdir my-theme`
+   2. `cd my-theme`
+4. **node バージョンはLTS推奨。 **
 
 ## 手順
 
