@@ -12,9 +12,9 @@
    1. `mkdir my-theme`
    2. `cd my-theme`
 4. __node バージョンはLTS推奨。__
-5. nodeのバージョンを確認 ` nvm ls `
-   1. Version変更 ` nvm use [version number] `
-   2. [Node.jsインストール](https://qiita.com/ffggss/items/94f1c4c5d311db2ec71a#nodejs%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB)
+   1. バージョン確認 ` nvm ls `
+   2. バージョン変更 ` nvm use [version number] `
+   3. [Node.jsインストール方法](https://qiita.com/ffggss/items/94f1c4c5d311db2ec71a#nodejs%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB)
 
 ## 手順
 
