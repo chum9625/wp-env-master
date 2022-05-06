@@ -12,21 +12,23 @@
    1. `mkdir my-theme`
    2. `cd my-theme`
 4. __node バージョンはLTS推奨。__
+5. nodeのバージョンを確認 ` nvm ls `
+   1. Version変更 ` nvm use [version number] `
+   2. [Node.jsインストール](https://qiita.com/ffggss/items/94f1c4c5d311db2ec71a#nodejs%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB)
 
 ## 手順
 
-1. ``` nvm ls ``` nodeのバージョンを確認する。変更コマンドは ``` nvm use [version number] ```
-2. `npm i -D @wordpress/env`
-3. ~~`npm init -y`~~
+1. `npm i -D @wordpress/env`
+2. ~~`npm init -y`~~
    ~~1.  package.json生成~~
-4. package.json の `scripts` に `wp-env` コマンドを追記。**※記載箇所注意**
-5. `.wp-env.json` を作成。　**※プラグイン見直し　特にewww**
-6. 起動 `npm run wp-env start`
+3. package.json の `scripts` に `wp-env` コマンドを追記。**※記載箇所注意**
+4. `.wp-env.json` を作成。　**※プラグイン見直し　特にewww**
+5. 起動 `npm run wp-env start`
    1. 停止   `npm run wp-env stop`
    2. 再起動 `npm run wp-env start --update`
    3. 削除   `npm run wp-env destroy`
-7. トップページ http://localhost:8888
-8. 管理画面 http://localhost:8888/wp-login.php
+6. トップページ http://localhost:8888
+7. 管理画面 http://localhost:8888/wp-login.php
    1. `admin`
    2. `password`
 
