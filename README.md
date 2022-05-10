@@ -1,8 +1,8 @@
 # wp-env-model
 
 - WordPress開発チーム公式の開発環境 [wp-env](https://ja.wordpress.org/team/handbook/block-editor/reference-guides/packages/packages-env/) を使った、WordPress開発環境の雛形。
-- 既定のプラグインやテーマがある場合、jsonファイルで予め設定できるので便利。
-- このリポジトリはcloneではなくjsonファイルの参考として活用する。
+- WordPress のインストールや開発環境で使用するプラグインやテーマをカスタマイズは、[.wp-env.json](https://ja.wordpress.org/team/handbook/block-editor/reference-guides/packages/packages-env/#wp-envjson)で予め設定できるので便利。
+- このリポジトリはcloneではなくjsonファイルを参照し活用する。
 
 ## 前提
 
