@@ -2,10 +2,14 @@
   "themes":[
     "./model"
   ],
+  "mappings":{
+      "wp-content/plugins": "./plugins",
+      "wp-content/uploads": "./uploads"
+  },
   "plugins": [
     "https://downloads.wordpress.org/plugin/wp-multibyte-patch.2.9.zip",
     "https://downloads.wordpress.org/plugin/duplicate-post.4.4.zip",
-    "https://downloads.wordpress.org/plugin/ewww-image-optimizer.6.4.2.zip",
-    "https://downloads.wordpress.org/plugin/show-current-template.0.4.6.zip"
+    "https://downloads.wordpress.org/plugin/show-current-template.0.4.6.zip",
+    "https://downloads.wordpress.org/plugin/ewww-image-optimizer.6.5.1.zip"
   ]
 }
