@@ -1,17 +1,18 @@
 # wp-env-model
 
 - WordPress開発チーム公式の開発環境 [wp-env](https://ja.wordpress.org/team/handbook/block-editor/reference-guides/packages/packages-env/) を使った、WordPress開発環境の雛形。
-- 開発環境で使用するプラグインやテーマを、[.wp-env.json](https://ja.wordpress.org/team/handbook/block-editor/reference-guides/packages/packages-env/#wp-envjson)で予め設定できるので便利。
-- このリポジトリはcloneではなくjsonファイルを参照し活用する。
+- テーマ開発、プラグイン開発に特化。
+- 必須プラグインやテーマを、[.wp-env.json](https://ja.wordpress.org/team/handbook/block-editor/reference-guides/packages/packages-env/#wp-envjson)で予め設定できて効率的。
+- .wp-env.json は都度ブラッシュアップする。
 
 ## 前提
 
 1. [Docker Desktop](https://www.docker.com/) セットアップ済。
 2. [Node.js](https://nodejs.org/ja/) セットアップ済。
-3. テーマディレクトリを作成し、移動しておく。
-   1. `mkdir my-theme`
-   2. `cd my-theme`
-4. __node バージョンはLTS推奨。__
+3. 開発ディレクトリを作成し、移動しておく。
+   1. `mkdir hoge`
+   2. `cd hoge`
+4. __node バージョンはLTS推奨なので確認しておく。__
    1. バージョン確認 ` nvm ls `
    2. バージョン変更 ` nvm use [version number] `
    3. [Node.jsインストール方法](https://qiita.com/ffggss/items/94f1c4c5d311db2ec71a#nodejs%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB)
@@ -24,13 +25,20 @@
 3. package.json の `scripts` に `wp-env` コマンドを追記。**※記載箇所注意**
 4. `.wp-env.json` を作成。
 5. 起動 `npm run wp-env start`
-   1. 停止   `npm run wp-env stop`
-   2. 再起動 `npm run wp-env start --update`
-   3. 削除   `npm run wp-env destroy`
-6. トップページ http://localhost:8888
-7. 管理画面 http://localhost:8888/wp-login.php
-   1. `admin`
-   2. `password`
+
+|動作|コマンド|
+|----|----|
+|起動|`npm run wp-env start`|
+|停止|`npm run wp-env stop`|
+|再起動|`npm run wp-env start --update`|
+|削除|`npm run wp-env destroy`|
+
+6. トップページ表示確認 http://localhost:8888
+7. 管理画面ログイン http://localhost:8888/wp-login.php
+
+|ユーザー名|パスワード|
+|----|----|
+|admin|password|
 
 ## DBへの接続
 
