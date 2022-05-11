@@ -22,7 +22,7 @@
 2. ~~`npm init -y`~~
    ~~1.  package.json生成~~
 3. package.json の `scripts` に `wp-env` コマンドを追記。**※記載箇所注意**
-4. `.wp-env.json` を作成。　**※プラグイン見直し　特にewww**
+4. `.wp-env.json` を作成。
 5. 起動 `npm run wp-env start`
    1. 停止   `npm run wp-env stop`
    2. 再起動 `npm run wp-env start --update`
