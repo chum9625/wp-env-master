@@ -2,7 +2,7 @@
 
 - WordPress開発チーム公式の開発環境 [wp-env](https://ja.wordpress.org/team/handbook/block-editor/reference-guides/packages/packages-env/) を使った、WordPress開発環境の雛形。
 - テーマ開発、プラグイン開発に特化。
-- 必須プラグインやテーマを、[.wp-env.json](https://ja.wordpress.org/team/handbook/block-editor/reference-guides/packages/packages-env/#wp-envjson)で予め設定できて効率的。
+- 必須プラグインやテーマを、[.wp-env.jsonで予め設定](https://ja.wordpress.org/team/handbook/block-editor/reference-guides/packages/packages-env/#wp-envjson)できて効率的。
 - .wp-env.json は都度ブラッシュアップする。
 
 ## 前提
@@ -26,32 +26,32 @@
 4. `.wp-env.json` を作成。
 5. 起動 `npm run wp-env start`
 
-|動作|コマンド|
-|----|----|
-|起動|`npm run wp-env start`|
-|停止|`npm run wp-env stop`|
-|再起動|`npm run wp-env start --update`|
-|削除|`npm run wp-env destroy`|
+   |動作|コマンド|
+   |----|----|
+   |起動| npm run wp-env start |
+   |停止| npm run wp-env stop |
+   |再起動| npm run wp-env start --update |
+   |削除| npm run wp-env destroy |
 
 6. トップページ表示確認 http://localhost:8888
 7. 管理画面ログイン http://localhost:8888/wp-login.php
 
-|ユーザー名|パスワード|
-|----|----|
-|admin|password|
+   |ユーザー名|パスワード|
+   |----|----|
+   |admin|password|
 
 ## DBへの接続
 
 - 起動コマンドを実行後 `docker ps` でDBのポートをコピーする。
 - 接続情報
 
-|パラメータ|値|
-|----|----|
-|Host|0.0.0.0|
-|Port| コピーした番号|
-|User|root|
-|Password|password|
-|Database|wordpress|
+   |パラメータ|値|
+   |----|----|
+   |Host|0.0.0.0|
+   |Port| コピーした番号|
+   |User|root|
+   |Password|password|
+   |Database|wordpress|
 
 ## トラブルシューティング
 
