@@ -9,13 +9,13 @@
 
 1. [Docker Desktop](https://www.docker.com/) セットアップ済。
 2. [Node.js](https://nodejs.org/ja/) セットアップ済。
-3. 開発ディレクトリを作成し、移動しておく。
-   1. `mkdir hoge`
-   2. `cd hoge`
-4. __node バージョンはLTS推奨なので確認しておく。__
+3. __node バージョンはLTS推奨なので確認しておく。__
    1. バージョン確認 ` nvm ls `
    2. バージョン変更 ` nvm use [version number] `
    3. [Node.jsインストール方法](https://qiita.com/ffggss/items/94f1c4c5d311db2ec71a#nodejs%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB)
+4. 開発ディレクトリを作成し、移動する。
+   1. `mkdir hoge`
+   2. `cd hoge`
 
 ## 手順
 
