@@ -12,7 +12,8 @@
 3. __node バージョンはLTS推奨なので確認しておく。__
    1. バージョン確認 ` nvm ls `
    2. バージョン変更 ` nvm use [version number] `
-   3. [nvm公式](https://github.com/nvm-sh/nvm)
+   3. 最新LTSインストール ` nvm i --lts `
+   4. [nvm公式](https://github.com/nvm-sh/nvm)
 4. 開発ディレクトリを作成し、移動する。
    1. `mkdir hoge`
    2. `cd hoge`
