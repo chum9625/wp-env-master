@@ -12,7 +12,7 @@
 3. __node バージョンはLTS推奨なので確認しておく。__
    1. バージョン確認 ` nvm ls `
    2. バージョン変更 ` nvm use [version number] `
-   3. [Node.jsインストール方法](https://qiita.com/ffggss/items/94f1c4c5d311db2ec71a#nodejs%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB)
+   3. [nvm公式](https://github.com/nvm-sh/nvm)
 4. 開発ディレクトリを作成し、移動する。
    1. `mkdir hoge`
    2. `cd hoge`
