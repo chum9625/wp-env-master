@@ -1,4 +1,4 @@
-# wp-env-model
+# 概要
 
 - WordPress開発チーム公式の開発環境 [wp-env](https://ja.wordpress.org/team/handbook/block-editor/reference-guides/packages/packages-env/) を使った、WordPress開発環境の雛形。
 - テーマ開発、プラグイン開発に特化。
