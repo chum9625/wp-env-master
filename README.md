@@ -63,7 +63,7 @@
 ### 付録1 🆒 SSHでWordPressをインストールする手順
 
 1. 本番サーバーにSSHで接続する。
-2. インストールするディレクトリに移動。cd /web/public_html/hoge
+2. インストールするディレクトリに移動。 `cd /web/public_html/hoge`
 3. WordPress最新版をダウンロード。 `wget http://ja.wordpress.org/latest-ja.tar.gz`
 4. 解凍。（/wordpress/に解凍される） `tar -zxvf latest-ja.tar.gz`
 5. 配置したいディレクトリにファイルを移動する。例）  `mv ./wordpress/* ./`
