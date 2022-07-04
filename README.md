@@ -58,18 +58,20 @@
 
 - [一般的な問題のトラブルシューティング](https://ja.wordpress.org/team/handbook/block-editor/reference-guides/packages/packages-env/#%E4%B8%80%E8%88%AC%E7%9A%84%E3%81%AA%E5%95%8F%E9%A1%8C%E3%81%AE%E3%83%88%E3%83%A9%E3%83%96%E3%83%AB%E3%82%B7%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0)
 
-### 🆒 付録1 SSHでWordPressをインストールする手順
+---
+
+### 付録1 🆒 SSHでWordPressをインストールする手順
 
 1. 本番サーバーにSSHで接続する。
 2. インストールするディレクトリに移動。cd /web/public_html/hoge
-3. WordPress最新版をダウンロード。 `wget http://ja.wordpress.org/latest-ja.tar.gz``
-4. 解凍。（/wordpress/に解凍される） `tar -zxvf latest-ja.tar.gz``
-5. 配置したいディレクトリにファイルを移動する。例）  `mv ./wordpress/* ./``
-6. 不要なディレクトリ、ファイルを削除。 例） `rm -r latest-ja.tar.gz wordpress``
+3. WordPress最新版をダウンロード。 `wget http://ja.wordpress.org/latest-ja.tar.gz`
+4. 解凍。（/wordpress/に解凍される） `tar -zxvf latest-ja.tar.gz`
+5. 配置したいディレクトリにファイルを移動する。例）  `mv ./wordpress/* ./`
+6. 不要なディレクトリ、ファイルを削除。 例） `rm -r latest-ja.tar.gz wordpress`
 
-### 🆒 付録2 開発用空テーマ _s を使う
+### 付録2 🆒 開発用空テーマ _s を使う
 
 1. [underscores.me](https://underscores.me/) で、空テーマを取得する。
-   1. sassを使う場合、 *Advanced Options* をクリックし、[x] sassify!にチェックを入れる。
+   1. sassを使う場合、 *Advanced Options* をクリックし、 [x] sassify!にチェックを入れる。
 2. __my-theme__ という名前のテーマを作成したい場合、 __my-theme__ と入力してGENERATEボタンをクリック（ダウンロード）する。
 3. ダウンロードしたものをテーマのスターターとして使う。
