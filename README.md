@@ -10,10 +10,17 @@
 1. [Docker Desktop](https://www.docker.com/) セットアップ済。
 2. [Node.js](https://nodejs.org/ja/) セットアップ済。
 3. __node バージョンはLTS推奨なので確認しておく。__
-   1. バージョン確認 ` nvm ls `
-   2. バージョン変更 ` nvm use [version number] `
-   3. 最新LTSインストール ` nvm i --lts `
-   4. [nvm公式](https://github.com/nvm-sh/nvm)
+
+- nodeはVoltaで管理しているのでコマンドは以下。
+
+```bash
+# Volta 管理下の各種バージョンを確認するのに使用
+volta list
+
+# Volta で管理しているツールを一覧で見る
+volta list all
+```
+
 4. 開発ディレクトリを作成し、移動する。
    1. `mkdir hoge`
    2. `cd hoge`
