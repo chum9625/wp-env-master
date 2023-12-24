@@ -83,3 +83,8 @@ volta list all
    1. sassを使う場合、 *Advanced Options* をクリックし、 ✅ sassify!にチェックを入れる。
 2. __my-theme__ という名前のテーマを作成したい場合、 __my-theme__ と入力してGENERATEボタンをクリック（ダウンロード）する。
 3. ダウンロードしたものをテーマのスターターとして使う。
+
+### 付録3. WordPress REST API の準備
+
+1. 初期状態で叩いてもNot　Found　となる ``` http://localhost:8888/wp-json/wp/v2/posts ```
+2. REST API を利用するためには、設定 ＞ パーマリンク から　「投稿名」　を選択して　「変更を保存」　する必要がある
