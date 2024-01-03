@@ -86,5 +86,5 @@ volta list all
 
 ### 付録3. WordPress REST API の準備
 
-1. 初期状態で叩いてもNot　Found　となる ``` http://localhost:8888/wp-json/wp/v2/posts ```
-2. REST API を利用するためには、設定 ＞ パーマリンク から　「投稿名」　を選択して　「変更を保存」　する必要がある
+1. 初期状態で叩いてもNot Found となる ``` http://localhost:8888/wp-json/wp/v2/posts ```
+2. REST API を利用するためには、設定 ＞ パーマリンク から 「投稿名」 を選択して 「変更を保存」 する必要がある
